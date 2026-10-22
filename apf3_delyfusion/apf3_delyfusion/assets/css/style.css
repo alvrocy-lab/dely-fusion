@@ -5,6 +5,9 @@
   --color3: #000000; /*Negro*/
   --color4: #6F6F6F; /*Gris*/
   --color5: #F2F2F2; /*Blanco Humo*/
+  --color6: #f54927; /*Rojo*/
+  --color7: #FDFBD4; /*Crema*/
+
   
   
   /*Fuente principal*/
@@ -340,8 +343,20 @@ menu.section{
     width: 20px;
 }
 
+/* Pie de la tabla: precios actualizados */
+.table tfoot {
+    background-color: #FDFBD4;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table tfoot td {
+    padding: 15px;
+}
+
 .table thead{
-    background-color: var(--color2);
+    background-color: var(--color6);
     color: var(--color3);
 }
 .table {
@@ -363,7 +378,6 @@ menu.section{
     right: 30px;
     bottom: 30px;
 }
-
 
 .page-tittle{
     padding-top: 65px;
