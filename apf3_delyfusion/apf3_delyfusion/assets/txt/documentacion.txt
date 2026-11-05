@@ -1,0 +1,5 @@
+Funcionalidad: Saludo de bienvenida
+Descripcion: Muestra un mensaje al usuario al iniciar la app.
+Pseudocodigo:
+  SI usuario inicia sesion ENTONCES
+    mostrar "Bienvenido, Mijael"
